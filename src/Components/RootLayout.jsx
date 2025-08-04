@@ -1,10 +1,12 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const RootLayout = () => {
   return (
-    <Outlet/>
-  )
-}
+    <div className="font-sans">
+      <Outlet />
+    </div>
+  );
+};
 
-export default RootLayout
+export default RootLayout;
